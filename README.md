@@ -26,6 +26,13 @@ Installation on Windows
 
 1. [Windows Simplified setup for the WebApp](docs/WindowsSimplifiedInstall.md)
 
+Installation with Docker (All Platforms)
+
+1. Ensure [Docker Desktop](https://www.docker.com/products/docker-desktop/) is installed and running.
+2. Copy the configuration template: `cp src/js/config-template.js src/js/config.js`
+3. Run `docker compose up`
+4. Visit [http://localhost:3000](http://localhost:3000)
+
 <!-- Not up to date
 Automated Installation
 1. [Run automated scripts](docs/installing/AUTOMATED_INSTALLATION.md)
